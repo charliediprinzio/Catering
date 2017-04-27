@@ -47,10 +47,22 @@ nav{
  	 text-align: left;
 }
 .col-sm-1{
-	transform: translateY(42px);
+	transform: translateY(40px);
 }
 
 .contact{
 	text-align: center;
 	font-size: 150%;
 }
+.feasts{
+	transform: translateY(-20%);
+}
+.menu-section-feasts{
+	text-indent: 80px;
+	font-size: 125%;
+	line-height: 80%;
+}
+	
+	
+	
+	
