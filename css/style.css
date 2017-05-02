@@ -1,17 +1,18 @@
 body{
-	font-family:"Helvetica", sans serif;
+	font-family:"Avenir", sans serif;
 }
 
 .page-header{
 	margin-top:2em;
 	padding-bottom:30px;
-	
+}
+.navbar-default{
+	background-color: #022440;
 }
 .intro{
 	line-height: 200%;
 	margin-left: 15%;
 	font-size: 135%;
-	
 }
 .set-table{
 	padding-top:30px;
@@ -22,27 +23,36 @@ body{
 nav{
 	font-weight:bold;
 }
+#change{
+	color: white;
+}
+h2, h3{
+	font-style: italic;
+}
 .about{
 	margin-left: 15%;
 	line-height: 200%;
 	font-size: 115%;
 }
 .head{
-	text-align:center;
+	text-align: center;
 	padding-top: 50px;
 }
 .menu-section{
 	text-indent: 80px;
 	font-size: 125%;
 	padding-bottom: 30px;
-	line-height: 80%;
+	
 }
 .CharOverride-2{
 	font-weight: bold;
+	text-align: justify;
+}
+.menu{
+	line-height: 80%;
 }
 .vertical{
  	 -webkit-transform: rotate(-90deg);
- 	 text-indent:0px;
  	 font-size: 115%;
  	 text-align: left;
 }
@@ -54,15 +64,37 @@ nav{
 	text-align: center;
 	font-size: 150%;
 }
-.feasts{
-	transform: translateY(-20%);
-}
 .menu-section-feasts{
-	text-indent: 80px;
 	font-size: 125%;
 	line-height: 80%;
+	display: inline-block;
 }
+.box_rotate {
+	-webkit-transform: rotate(-90deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+          transform: rotate(-90deg);  /* Firefox 16+, IE 10+, Opera */
+}
+#side{
+width: 100px;
+vertical-align: middle;
+text-align: center;
+border-top: hidden;
+border-bottom: hidden;
+border-right: hidden;
+font-size: 115%;
+}
+#main{
+height: 100px;
+vertical-align: middle;
+border-left: hidden;
+border-right: hidden;
+border-bottom: hidden;
+}
+
+tr{
+	border-bottom: solid;
+	border-top: black;
 	
+}
 	
 	
 	
