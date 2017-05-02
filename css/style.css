@@ -7,7 +7,7 @@ body{
 	padding-bottom:30px;
 }
 .navbar-default{
-	background-color: #022440;
+	/*background-color: #022440;*/
 }
 .intro{
 	line-height: 200%;
@@ -16,6 +16,7 @@ body{
 }
 .set-table{
 	padding-top:30px;
+	padding-bottom:30px;
 }
 .top-image{
 	padding-bottom:30px
@@ -28,6 +29,7 @@ nav{
 }
 h2, h3{
 	font-style: italic;
+	color: red;
 }
 .about{
 	margin-left: 15%;
@@ -89,11 +91,12 @@ border-left: hidden;
 border-right: hidden;
 border-bottom: hidden;
 }
-
+#test p{
+line-height: 1em;	
+}
 tr{
 	border-bottom: solid;
 	border-top: black;
-	
 }
 	
 	
