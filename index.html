@@ -46,11 +46,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">About Us</a>
+                        <a id="change" href="#about">About Us</a>
                     </li>
                     
                     <li class="dropdown">
-        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Sample Menus
+        				<a id="change" class="dropdown-toggle" data-toggle="dropdown" href="#">Sample Menus
         				<span class="caret"></span></a>
        					 <ul class="dropdown-menu">
         					  <li><a href="#passed">Passed Hor D'oeuvres</a></li>
@@ -60,7 +60,7 @@
       				</li>
                     
                     <li>
-                        <a href="#contact">Get in Touch</a>
+                        <a id="change" href="#contact">Get in Touch</a>
                     </li>
                 </ul>
             </div>
@@ -137,7 +137,7 @@
     				</div>
     			</div>
     	
-    	
+    			<div class="menu-type" id="seated">
     				<h3>Seated Dinner</h3>
     				<hr>
     				<div class="menu-section">
@@ -179,55 +179,93 @@
     			
     			</div>
     		
+    			<div class="menu-type-feasts" id="feasts">
     				<h3>Family Feasts</h3>
     				<hr>
-    				<div class="menu-section-feasts">
-    						<div class="col-sm-1">
-    						</div>
-						</div>
-					</div>
-					
-					<div class="menu-section-feasts">
-    						<div class="col-sm-1">
-    						</div>
-						</div>
-					</div>
     				
     				<div class="menu-section-feasts">
-    						<div class="col-sm-1">
-    						</div>
-						</div>
+    				<div class="row">
+    					<table>
+    						<body>
+    							<tr>
+    								<td id="side" class="box_rotate">BEEF</td>
+    								<td id="main">
+    									<p class="menu"><span class="CharOverride-2">BIG steaks (dry aged)</span>- chimichurri, cumin, charred lime</p>
+										<p class="menu"><span class="CharOverride-2">Ribs</span> - Gochujang, ginger, spring onions</p>
+										<p class="menu"><span class="CharOverride-2">Standing roast</span> - garlic scapes, thyme</p>
+									</td>
+    							</tr>
+    							
+    							<tr>
+    								<td id="side" class="box_rotate">PORK</td>
+    								<td id="main">
+    									<p class="menu"><span class="CharOverride-2">Porchetta</span> - rosemary, fennel fronds,</p>
+										<p class="menu"><span class="CharOverride-2">Whole leg/shoulder</span> - garlic, oregano, annatto, coriander</p>
+    								</td>
+    							</tr>
+    							
+    							<tr>
+    								<td id="side" class="box_rotate">LAMB</td>
+    								<td id="main">
+    									<p class="menu"><span class="CharOverride-2">Leg</span> - mustard, cumin, rosemary</p>
+										<p class="menu"><span class="CharOverride-2">Cumin ribs</span> - grilled broccoli, crispy shallots</p>
+										<p class="menu"><span class="CharOverride-2">Half/whole</span> - moroccan spices, carrots, harissa</p>
+    								</td>
+    							</tr>
+    							<tr>
+    								<td id="side" class="box_rotate">POULTRY</td>
+    								<td id="main">
+    									<p class="menu"><span class="CharOverride-2">Roast chicken</span> - lemon, roasted garlic, baby mushrooms</p>
+										<p class="menu"><span class="CharOverride-2">Duck</span> - mustard seed, sweet cherries, turnips</p>
+    								</td>
+    							</tr>
+    							<tr>
+    								<td id="side" class="box_rotate">FISH</td>
+    								<td id="main">
+    									<p class="menu"><span class="CharOverride-2">Salt-baked / broiled / grilled  whole fish</span> - citrus, thyme</p>
+										<p class="menu"><span class="CharOverride-2">Fritto misto</span> - calamari, smelt, shrimp, etc.</p>
+    								</td>
+    							</tr>
+    							<tr>
+    								<td id="side" class="box_rotate">VEG</td>
+    								<td id="main">
+    									<p class="menu"><span class="CharOverride-2">Three hour ratatouille</span> - eggplant, summer squash, tomatoes</p>
+										<p class="menu"><span class="CharOverride-2">Charred cabbage</span> - sweet corn, brown butter</p>
+										<p class="menu"><span class="CharOverride-2">Tomato tart</span> - ricotta, basil, anchovy</p>
+										<p class="menu"><span class="CharOverride-2">Quiche</span> - leek, mushroom, goat cheese</p>
+										<p class="menu"><span class="CharOverride-2">Grilled beans</span> - pepper marmalade, hazelnut</p>
+										<br>
+									</td>
+    							</tr>
+    							<tr>
+    								<td id="side" class="box_rotate">BREAD</td>
+    								<td id="main">
+    									<p class="menu"><span class="CharOverride-2">Lisa’s homemade sourdough bread</span></p>
+										<p class="menu"><span class="CharOverride-6">-olive</span></p>
+										<p class="menu"><span class="CharOverride-6">-walnut</span></p>
+										<p class="menu"><span class="CharOverride-6">-ciabatta</span></p>
+										<br>
+    								</td>
+    							</tr>
+    							<tr>
+    								<td id="side" class="box_rotate">SWEET</td>
+    								<td id="main">
+    									<p class="menu"><span class="CharOverride-2">Fresh old fashioned doughnuts</span> - cinnamon, cardamon - lemon, strawberry - honey</p>
+										<p class="menu"><span class="CharOverride-2">Ice cream</span> - olive oil, dark chocolate - burnt peach, basil -<br /> strawberry, anise - blackberry, lime - toasted hazelnut - coffee, cardamom.</p>
+										<p class="menu"><span class="CharOverride-2">Fig torta</span> - olive oil, fennel seed</p>
+										<p class="menu"><span class="CharOverride-2">Berry curd tart</span>  - lime, basil, mint</p>
+										<p class="menu"><span class="CharOverride-2">Italian cookies &amp; cannoli</span></p>
+									</td>
+    							</tr>
+    						</body>
+    					</table>
 					</div>
+					</div>
+					<hr>
+				
 					
-					<div class="menu-section-feasts">	
-    						<div class="col-sm-1">
-    						</div>
-						</div>
-					</div>
-		
-					<div class="menu-section-feasts">
-    						<div class="col-sm-1">
-    						</div>
-						</div>
-					</div>
-					
-					<div class="menu-section-feasts">
-    						<div class="col-sm-1">
-    						</div>
-					</div>
-					
-					<div class="menu-section-feasts">
-    						<div class="col-sm-1">
-    						</div>
-						</div>
-					</div>
-					
-					<div class="menu-section-feasts">
-    						<div class="col-sm-1">
-    						</div>
-						</div>
-					</div>
-    		
+				</div>
+    
     			<div class="menu-type">
     				<h3>Drinks</h3>
     				<hr>
@@ -235,6 +273,25 @@
     					<p class="menu">Drinks are an essential part of any festive summer gathering!</p>
     					<p class="menu">We can provide drink service during the meal, bar service, or cocktail hour.</p>
     					<p class="menu">We can work with you to arrange wines or beers that go nicely with the meal or can propose a speciality cocktail.</p>
+    				</div>
+    			</div>
+    			
+    			<div class="menu-type">
+    				<h3>Equipment &amp; Preparation</h3>
+    				<hr>
+    				<div class="menu-section">
+    					<p class="menu">We’ll work with you to make sure everything is worked out in advance, </p>
+    					<p class="menu">from what we’ll be serving, to what equipment or smallware rentals we’ll need.</p>	
+    				</div>
+    			</div>
+    		
+    			<div class="menu-type">
+    				<h3>Service</h3>
+    				<hr>
+    				<div class="menu-section">
+    					<p class="menu">We understand that service is an essential aspect of a great event. You’re hiring us because you don’t want to be caught up in the details and the work yourself!</p>
+    					<p class="menu">We can arrange wait and cleaning staff to fit the event’s needs.</p>	
+    					<p class="menu">When it’s all over, we’ll make sure everything is cleaner than when we arrived and be out of your hair.</p>
     				</div>
     			</div>
     		
@@ -249,7 +306,7 @@
 					<img class="img-responsive" src="image/IMG_0641.jpg">
 				</div>
 				<div class=col-md-4>
-					<img class="img-responsive" src="https://lh3.googleusercontent.com/W7V4L39x7yolwQxXXz0QA4JeOK-kr4pxCUnSe0uq959Wkgs32RQTGrs3Ku_x48YrHNc_0athl9YkFLQ=w3226-h1764-rw">
+					<img class="img-responsive" src="image/DSC_0531.jpg">
 				</div>
 			</div>
 			
@@ -260,11 +317,19 @@
 				<p>Reach out to us to discuss your event and we’ll send you a quote.</p>
 				<a href="mailto:hdiprinzio@me.com">hdiprinzio@me.com</a>
 				<p>917 770 2277</p>
-			</div>
+			</div><!--contact-->
 	
 	
 		</div><!--Close col 12-->
-	</div>
+	</div><!--container-->
+	</div><!--content-->
+
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 
