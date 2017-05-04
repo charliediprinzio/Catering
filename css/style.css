@@ -27,7 +27,7 @@ nav{
 #change{
 	color: white;
 }
-h2, h3{
+h1, h2, h3{
 	font-style: italic;
 	color: red;
 }
@@ -41,7 +41,8 @@ h2, h3{
 	padding-top: 50px;
 }
 .menu-section{
-	text-indent: 80px;
+	padding-left: 4.25em
+	text-indent: -2em;
 	font-size: 125%;
 	padding-bottom: 30px;
 	
@@ -92,7 +93,10 @@ border-right: hidden;
 border-bottom: hidden;
 }
 #test p{
-line-height: 1em;	
+line-height: 1.25em;	
+}
+.menu-type p{
+line-height: 1.25em;
 }
 tr{
 	border-bottom: solid;
